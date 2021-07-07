@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/customborder"
+            android:padding="1dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="23dp">
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/lp"
+                    android:layout_gravity="center"/>
+                <EditText
+                    android:id="@+id/mat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="License plate"
+                    android:textColorHint="#000000"
+                    android:layout_marginLeft="15dp"
+                    android:background="#00000000"
+                    android:letterSpacing="0.1"
+                    android:textSize="16dp"
+                    android:inputType="text"
+                    android:textColor="@color/black"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="23dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_car"
+                    android:layout_gravity="center"/>
+                <EditText
+                    android:id="@+id/brand"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Brand"
+                    android:textColorHint="#000000"
+                    android:layout_marginLeft="15dp"
+                    android:background="#00000000"
+                    android:letterSpacing="0.1"
+                    android:textSize="16dp"
+                    android:inputType="text"
+                    android:textColor="@color/black"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="23dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_car"
+                    android:layout_gravity="center"/>
+                <EditText
+                    android:id="@+id/model"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Model"
+                    android:textColorHint="#000000"
+                    android:layout_marginLeft="15dp"
+                    android:background="#00000000"
+                    android:letterSpacing="0.1"
+                    android:textSize="16dp"
+                    android:inputType="text"
+                    android:textColor="@color/black"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="23dp">
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/calendar"
+                    android:layout_gravity="center"/>
+                <EditText
+                    android:id="@+id/year"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Fabrication year"
+                    android:textColorHint="#000000"
+                    android:layout_marginLeft="15dp"
+                    android:background="#00000000"
+                    android:letterSpacing="0.1"
+                    android:textSize="16dp"
+                    android:inputType="number"
+                    android:textColor="@color/black"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="23dp">
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/oil"
+                    android:layout_gravity="center"/>
+                <EditText
+                    android:id="@+id/lastOil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Last oil changed (km)"
+                    android:textColorHint="#000000"
+                    android:layout_marginLeft="15dp"
+                    android:background="#00000000"
+                    android:letterSpacing="0.1"
+                    android:textSize="16dp"
+                    android:inputType="number"
+                    android:textColor="@color/black"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="23dp">
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/brake"
+                    android:layout_gravity="center"/>
+                <EditText
+                    android:id="@+id/lasBraking"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Last braking pads changed (km)"
+                    android:textColorHint="#000000"
+                    android:layout_marginLeft="15dp"
+                    android:background="#00000000"
+                    android:letterSpacing="0.1"
+                    android:textSize="16dp"
+                    android:inputType="number"
+                    android:textColor="@color/black"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="23dp">
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/bluetooth"
+                    android:layout_gravity="center"/>
+                <EditText
+                    android:id="@+id/idBM"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Bluetooth ID"
+                    android:textColorHint="#000000"
+                    android:layout_marginLeft="15dp"
+                    android:background="#00000000"
+                    android:letterSpacing="0.1"
+                    android:textSize="16dp"
+                    android:inputType="text"
+                    android:textColor="@color/black"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <android.widget.Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add this car to your account"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:onClick="add_new_car"
+            android:background="@drawable/custom_button"
+            android:drawableStart="@drawable/ic_car_white"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:id="@+id/error"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:textColor="#ba160c"
+            android:lines="4"
+
+            />
+
+    </LinearLayout>
+</ScrollView>

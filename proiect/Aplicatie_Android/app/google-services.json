@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "316165267061",
+    "project_id": "licenta-d3be7",
+    "storage_bucket": "licenta-d3be7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316165267061:android:779928d8c09e09bad9e23c",
+        "android_client_info": {
+          "package_name": "com.example.aplicatie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316165267061-mnbo7g35tb111el20h2uib4tdj3f3kco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXs4kwnWatFoBm8iMANmOjaXR_jYQc5eQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316165267061-mnbo7g35tb111el20h2uib4tdj3f3kco.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

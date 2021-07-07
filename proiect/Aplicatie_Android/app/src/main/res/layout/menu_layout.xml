@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="100dp"/>
+
+        <android.widget.Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/custom_button"
+            android:drawableStart="@drawable/ic_car_white"
+            android:drawablePadding="8dp"
+            android:onClick="add"
+            android:padding="15dp"
+            android:text="@string/add_car"
+            android:textColor="@color/white"
+            android:layout_gravity="center"/>
+
+        <android.widget.Button
+            android:layout_gravity="center"
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_button"
+            android:drawableStart="@drawable/ic_car_white"
+            android:text="@string/show_paired_devices_to_connect_to_car"
+            android:textColor="@color/white"
+            android:padding="15dp"/>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="wrap_content"
+            android:layout_height="276dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:footerDividersEnabled="false"
+
+            />
+    </LinearLayout>
+</ScrollView>

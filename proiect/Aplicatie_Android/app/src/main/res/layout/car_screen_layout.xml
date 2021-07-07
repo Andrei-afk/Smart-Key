@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.widget.Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/lock_button"
+                android:onClick="lockUnlock"
+                android:layout_marginBottom="50dp"/>
+
+            <android.widget.Button
+                android:id="@+id/button3"
+               android:layout_marginTop="50dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button"
+                android:drawableStart="@drawable/ic_car_white"
+                android:text="@string/get_car_info"
+                android:onClick="show"
+                android:padding="5dp"
+                android:layout_gravity="center"
+android:layout_marginBottom="35dp"
+android:textColor="@color/white"
+                />
+            <android.widget.Button
+                android:id="@+id/button6"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button"
+                android:text="@string/error_history"
+                android:onClick="showErrHistory"
+                android:drawableStart="@drawable/ic_show_err_white"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>
